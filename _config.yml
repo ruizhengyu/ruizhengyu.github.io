@@ -1,0 +1,35 @@
+# visit https://github.com/ruizhengyu/NET for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+rouge: highlighter
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: 数域K上N维线性空间
+
+description: ReyInChina的空间
+author:
+  name: ruizhengyu
+  email: ruizhengyu@gmail.com
+  github: ruizhengyu
+  wechat: ruizhengyu
+  qq: 767496479
+  linkedin: 正玉-芮-8541a9127
+  bio: 数域K上N维线性空间
+  email_md5: fb87dd5430ceb9a0c3bf57f65af52023
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
+
+markdown: kramdown
+duoshuo: rui
+beian: 
+cnzz: 1257366192
