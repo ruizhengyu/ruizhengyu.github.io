@@ -1,35 +1,46 @@
-# visit https://github.com/ruizhengyu/NET for more settings
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-rouge: highlighter
-
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: 数域K上N维线性空间
-
+name: 数域K上N维线性空间
 description: ReyInChina的空间
 author:
   name: ruizhengyu
   email: ruizhengyu@gmail.com
-  github: ruizhengyu
-  wechat: ruizhengyu
-  qq: 767496479
-  linkedin: 正玉-芮-8541a9127
-  bio: 数域K上N维线性空间
-  email_md5: fb87dd5430ceb9a0c3bf57f65af52023
+baseurl: https://ruizhengyu.github.io/
+rssurl: http://feeds.feedburner.com/huntout
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
-BASE_PATH:
+include: ['.htaccess', '.nojekyll']
 
-markdown: kramdown
-duoshuo: rui
-beian: 
-cnzz: 1257366192
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+debug: true
+
+permalink: pretty
+
+# Markdown library
+markdown: redcarpet
+  # extensions: ['fenced_code_blocks', 'smart']
+
+pygments: true
+
+encoding: utf-8
+
+source: app
+destination: .jekyll
+
+sitemap:
+  file: '/sitemap.xml'
+  exclude:
+    - '/404.html'
+    - '/atom.xml'
+  include_posts:
+    - '/index.html'
+  change_frequency_name: 'change_frequency'
+  priority_name: 'priority'

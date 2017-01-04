@@ -1,0 +1,16 @@
+#___gcse_0 {
+  padding-right: 10em;
+  input.gsc-input {
+    font-family: $font-serif;
+    font-size: 1.4em;
+    padding: .5em 1em;
+    color: #999;
+    border: 2px solid #ddd;
+    border-radius: 90px;
+    background: none !important;
+  }
+  td.gsc-search-button,
+  td.gsc-clear-button {
+    display: none;
+  }
+}

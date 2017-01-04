@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="shadow">
+  <div class="content">
+    <div class="post single{% if page.photo_url %} photo{% endif %}">
+      <h1>{{ page.title }}</h1>
+      <info datetime="{{ page.date | date: '%Y-%m-%d' }}">
+        {{ page.date | date: "%b %d, %Y" }}
+      </info>
+      <div class="body">{{ content }}</div>
+      <div class="ribbon">
+        <div class="rectangle">
+          {% if page.previous %}
+          <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">
+            <div class="prev"><i class="fa fa-angle-left"></i></div>
+          </a>
+          {% endif %}
+          {% if page.next %}
+          <a href="{{ page.next.url }}" title="{{ page.next.title }}">
+            <div class="next"><i class="fa fa-angle-right"></i></div>
+          </a>
+          {% endif %}
+          <div class="curr">
+            <div class="link">
+              <i class="fa fa-link"></i> <a href="{{ page.url | prepend: site.baseurl }}">{{ page.url | prepend: site.baseurl }}</a>
+            </div>
+            <ul class="tags-box">
+              <li><i class="fa fa-tags"></i></li>
+              {% for tag in page.tags %}
+              <li><a href="/tags/#{{ tag | cgi_escape }}">{{ tag }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% include comments.html %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+.post {
+  padding-bottom: 0;
+  page-break-before: always;
+  .ribbon {
+    @include ribbon($post-padding);
+    margin-top: 2em;
+    color: #777;
+    .link {
+      padding-top: 1em;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      .fa {
+        margin-right: .8em;
+      }
+    }
+  }
+  info {
+    display: inline-block;
+    margin-bottom: 3em;
+    margin-left: -$post-padding;
+    padding: .5em 0 .5em $post-padding;
+    color: #ccc;
+    border: 1px solid black(.1);
+    border-right: none;
+    border-left: none;
+  }
+  &.photo {
+    p:first-child,
+    img:first-child {
+      margin-top: 0;
+      padding-top: 0;
+    }
+  }
+}

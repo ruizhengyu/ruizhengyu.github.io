@@ -1,0 +1,61 @@
+@mixin ribbon($padding) {
+  $offset: $padding / 8;
+  $height: 2em;
+  $fa-ratio: 3;
+  $color: $bg-color;
+  $darken: darken($color, 15%);
+  margin-right: $padding;
+  margin-left: -$padding;
+  .rectangle {
+    position: relative;
+    z-index: 100;
+    right: -$offset;
+    left: -$offset;
+    width: 100%;
+    padding: 0 ($padding + $offset);
+    background: $color;
+    @include paper-shadow;
+    @include clearfix;
+    .prev,
+    .next {
+      float: left;
+      margin: 0 0 0 (-$padding - $offset);
+      padding: 0 ($padding / 2 - $offset * 2);
+      color: $darken;
+      &:hover {
+        color: $color;
+        background-color: $darken;
+      }
+      .fa {
+        font-size: 1em * $fa-ratio;
+        line-height: $height;
+      }
+    }
+    .next {
+      float: right;
+      margin: 0 (-$padding - $offset) 0 0;
+    }
+  }
+  &:before,
+  &:after {
+    content: '';
+    position: relative;
+    z-index: -1;
+    top: $height * $fa-ratio - $offset;
+    right: auto;
+    left: -$offset * 2;
+    float: left;
+    width: 0;
+    height: 0;
+    border-width: $offset;
+    border-style: solid;
+    border-color: transparent $darken transparent transparent;
+  }
+  &:after {
+    top: -$offset;
+    right: -($padding + $offset) * 2;
+    left: auto;
+    float: right;
+    border-color: transparent transparent transparent $darken;
+  }
+}
