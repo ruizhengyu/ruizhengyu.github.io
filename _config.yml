@@ -27,19 +27,17 @@ author:
   zhihu:      https://www.zhihu.com/people/ruizhengyu
 
 # Build settings
-permalink:    /blog/:title/
+permalink:    /:year/:month/:day/:title/
 markdown:     kramdown
 highlighter:  rouge
 
 sass:
   style: compressed
-
-paginate:       10
+  
 paginate_path:  /blog/page/:num/
 
-gems:     ["jekyll-paginate"]
-
-BASE_PATH:  https://ruizhengyu.github.io
+gems:
+  - jekyll-seo-tag
 
 rss_path: feed.xml
 categories_path: categories.html
