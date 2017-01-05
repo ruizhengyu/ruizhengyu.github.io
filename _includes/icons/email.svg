@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Email</title>
+    <desc>Email</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="email5" sketch:type="MSLayerGroup" fill="#030104">
+            <g id="Group" sketch:type="MSShapeGroup">
+                <path d="M8,8 L6.02057143,6.26742857 L0.361142857,11.1188571 C0.566857143,11.3097143 0.844571429,11.4285714 1.15085714,11.4285714 L14.8491429,11.4285714 C15.1542857,11.4285714 15.4308571,11.3097143 15.6354286,11.1188571 L9.97942857,6.26742857 L8,8 L8,8 Z" id="Shape"></path>
+                <path d="M15.6388571,0.309714286 C15.4331429,0.117714286 15.1565714,0 14.8491429,0 L1.15085714,0 C0.845714286,0 0.569142857,0.118857143 0.363428571,0.312 L8,6.85714286 L15.6388571,0.309714286 L15.6388571,0.309714286 Z" id="Shape"></path>
+                <path d="M0,1.00342857 L0,10.4982857 L5.52342857,5.80457143 L0,1.00342857 Z" id="Shape"></path>
+                <path d="M10.4765714,5.80457143 L16,10.4982857 L16,1 L10.4765714,5.80457143 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

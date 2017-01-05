@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div style='display:none;'>
+      <img src="/favicon-300x300.png" alt="Mingdong's Blog"/>
+    </div>
+    <!--[if lte IE 9]>
+    <div class="unsupported-browser">
+      <div class="container clearfix">
+        <h5>本博客不支持 Internet Explorer 9 及以下版本的浏览器</h5>
+        <p>请升级到最新版的 <a href="http://windows.microsoft.com/ie">Internet Explorer</a>、<a href="https://chrome.google.com">Chrome</a> 或者 <a href="https://mozilla.org/firefox/">Firefox</a> 浏览器</p>
+        <p>如果您正使用 Internet Explorer 11，请参照 <a href="http://windows.microsoft.com/en-US/windows7/webpages-look-incorrect-in-Internet-Explorer">关闭 "兼容性视图"</a></p>
+      </div>
+    </div>
+    <![endif]-->
+    <main>
+      {% include header.html %}
+
+      <div class="container">
+        {{ content }}
+      </div>
+
+      {% include footer.html %}
+
+      {% include icons/github-corner.html %}
+
+      <script src="//mdluo.b0.upaiyun.com/blog/js/jquery.min.js"></script>
+      <!--[if lt IE 9]>
+        <script src="//mdluo.b0.upaiyun.com/blog/js/jquery.1.12.min.js"></script>
+      <![endif]-->
+
+      {% if page.share %}
+      <script src="//mdluo.b0.upaiyun.com/blog/js/share.min.js"></script>
+      <script>
+        $(document).ready(function() {
+          $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+            $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+            e.preventDefault();
+          });
+          var config = {
+            disabled            : ['douban', 'diandian', 'linkedin','google', 'facebook', 'twitter'],
+            wechatQrcodeTitle   : "微信扫一扫：分享",
+            wechatQrcodeHelper  : '<p>微信里点“扫一扫”，扫一下</p><p>二维码便可将本文分享至朋友圈</p>',
+          };
+          $('.social-share-panel').share(config);
+        });
+      </script>
+      {% endif %}
+
+    </main>
+  </body>
+</html>

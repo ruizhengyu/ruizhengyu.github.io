@@ -1,39 +1,18 @@
-# .gitignore for Yeoman-Jekyll projects
+# Jekyll build and cache
+/_site
+/_drafts
+.sass-cache
 
-# Ignore hidden folders #
-# This takes care of .tmp, .sass-cache, and many others #
-.*/
-
-# Ignore OS generated files #
-.DS_Store*
-ehthumbs.db
-Icon?
+# Mac OS
+.DS_Store
 Thumbs.db
 
-# Always-ignore files and folders #
-*.diff
-*.err
-*.log
-*.orig
-*.rej
-*.swn
-*.swo
-*.swp
-._*
-*~
+#Gemfile
+Gemfile
+Gemfile.lock
 
-# Ignore packages #
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+Thumbs.db
 
-# Ignore for Yeoman-Jekyll projects #
-app/_bower_components
-dist
-node_modules
-.tmp
+*.db
+
+Thumbs.db

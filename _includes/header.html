@@ -1,0 +1,23 @@
+<header class="site-header">
+  <div class="container">
+    <h1><a href="{{ "/" | prepend: site.baseurl }}"><span>{{site.author.first_name}}</span>'s blog</a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        {% for page in site.pages %}
+          {% if page.title %}
+            <li><a href="{{ '/' | prepend: site.baseurl }}{{ page.permalink }}" title="{{ page.title }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section class="post-list">
+  {% if paginator.page == 1 %}
+    {% for post in site.categories.sticky %}
+      {% include article.html %}
+    {% endfor %}
+  {% endif %}
+
+  {% for post in paginator.posts %}
+    {% unless post.categories contains 'sticky' %}
+      {% include article.html %}
+    {% endunless %}
+  {% endfor %}
+
+  {% include pagination.html %}
+</section>

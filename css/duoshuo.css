@@ -1,0 +1,67 @@
+#ds-thread {
+  padding: 1rem 0 1rem 0;
+}
+#ds-thread * {
+  font-family: 'Helvetica Neue', arial, sans-serif !important;
+  overflow-x: hidden;
+}
+#ds-thread #ds-reset .ds-comments-info,
+#ds-thread #ds-reset li.ds-tab a {
+  font-size: 1em;
+}
+#ds-thread #ds-reset .ds-comment-body p,
+#ds-thread #ds-reset .ds-textarea-wrapper textarea,
+#ds-thread #ds-reset .ds-textarea-wrapper .ds-hidden-text {
+  color: #636363;
+  font-size: 1.1em;
+}
+#ds-thread #ds-reset .ds-post-button {
+  font-size: 1.1em;
+}
+#ds-thread #ds-reset .ds-comment-body p {
+  margin: 1em 0 1em 0;
+}
+#ds-thread.ds-narrow #ds-reset .ds-post-self {
+  padding: 8px 0;
+}
+#ds-thread #ds-reset .ds-sort {
+  top: 4px;
+}
+#ds-thread #ds-reset li.ds-tab a.ds-current {
+  border: none;
+  background: none;
+}
+#ds-thread #ds-reset .ds-login-buttons {
+  width: auto;
+  position: absolute;
+  bottom: 12px;
+  left: 50px;
+  font-size: 0.9em;
+}
+#ds-thread #ds-reset .ds-login-buttons .ds-service-list li:nth-last-child(-n+1) {
+  display: none;
+}
+#ds-thread #ds-reset .ds-replybox {
+  margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+  #ds-thread.ds-narrow #ds-reset .ds-replybox {
+    margin-top: 10px;
+  }
+  #ds-thread #ds-reset .ds-replybox .ds-avatar {
+    margin: 0;
+  }
+  #ds-thread #ds-reset .ds-login-buttons {
+    left: 32px;
+    bottom: 14px;
+  }
+  #ds-thread #ds-reset .ds-login-buttons p,
+  #ds-thread #ds-reset .ds-login-buttons .ds-service-list li:nth-last-child(-n+2) {
+    display: none;
+  }
+  #ds-smilies-tooltip {
+    width: auto;
+    right: 6%;
+  }
+}

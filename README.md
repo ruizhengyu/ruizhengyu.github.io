@@ -1,2 +1,6 @@
-﻿[数域K上N维线性空间](http://ruizhengyu.github.io/) 的博客
+mdluo.github.io
+===============
 
+Personal blog of Mingdong on Github Pages
+
+http://mdluo.github.io

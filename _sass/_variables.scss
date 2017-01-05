@@ -1,0 +1,60 @@
+// Typography
+$base-font-family: Avenir, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+$heading-font-family: $base-font-family;
+
+// Font Sizes
+$base-font-size: 1.0em;
+
+// Line height
+$base-line-height: 1.6;
+$heading-line-height: 1.2;
+
+// font weight
+$font-weight-light: 300;
+$font-weight-normal: 300;
+$font-weight-bold: 600;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$primary-color: #337ab7;
+$white-color: #fff;
+$black-color: #000;
+$blue-color: #477dca;
+$grey-color: #828282;
+$dark-gray-color: #232323;
+$medium-gray-color: #9a9a9a;
+$light-gray-color: #dedede;
+
+$email-red-color: #DF4A32;
+$github-dark-color: #333333;
+$zhihu-blue-color: #0074dc;
+$douban-brown-color: #594028;
+$douban-green-color: #279738;
+$v2ex-dark-color: #262626;
+$weibo-red-color: #eb182c;
+$sf-green-color: #009b5f;
+
+// Font Colors
+$base-font-color: #333;
+$action-color: $primary-color;
+
+// Border
+$base-border-color: $light-gray-color;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: lighten($white-color, 5%);
+$secondary-background-color: tint($base-border-color, 75%);
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+
+// Animations
+$base-duration: .2s;
+$base-timing: ease;

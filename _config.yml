@@ -1,46 +1,41 @@
-# Jekyll configuration precedence:
-# 1. Gruntfile task
-# 2. config.build.yml
-# 3. config.yml
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-name: 数域K上N维线性空间
-description: ReyInChina的空间
+# SEO settings
+title:            "数域K上N维线性空间"
+description:      "This is a personal blog of Ruizhengyu on Github Pages."
+url:              https://ruizhengyu.github.io
+enforce_ssl:      ruizhengyu.github.io
+
+repo:             https://github.com/ruizhengyu/ruizhengyu.github.io
+disqus_name:      "ruizhengyu"
+disqus_site_name: "Ruizhengyu's Blog"
+cnd:              
+
+# Author settings
 author:
-  name: ruizhengyu
-  email: ruizhengyu@gmail.com
-baseurl: https://ruizhengyu.github.io/
-rssurl: http://feeds.feedburner.com/huntout
+  name:       "Ruizhengyu"
+  first_name: "Rui"
+  email:      ruizhengyu@gmail.com
+  url:        https://ruizhengyu.github.io
+  github:     https://github.com/ruizhengyu
+  weibo:      http://weibo.com/u/2237065581
 
-# Grunt handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+# Build settings
+permalink:    /blog/:title/
+markdown:     kramdown
+highlighter:  rouge
 
-include: ['.htaccess', '.nojekyll']
+sass:
+  style: compressed
 
-# _config.build.yml sets future and show_drafts to false on `grunt build`
-future: true
-show_drafts: true
-debug: true
+paginate:       10
+paginate_path:  /blog/page/:num/
 
-permalink: pretty
+gems:     ["jekyll-paginate"]
 
-# Markdown library
-markdown: redcarpet
-  # extensions: ['fenced_code_blocks', 'smart']
-
-pygments: true
-
-encoding: utf-8
-
-source: app
-destination: .jekyll
-
-sitemap:
-  file: '/sitemap.xml'
-  exclude:
-    - '/404.html'
-    - '/atom.xml'
-  include_posts:
-    - '/index.html'
-  change_frequency_name: 'change_frequency'
-  priority_name: 'priority'
+exclude:  ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

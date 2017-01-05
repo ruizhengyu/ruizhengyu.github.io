@@ -1,0 +1,62 @@
+  <head>
+    {% if site.enforce_ssl %}
+      <script>
+      var host = "{{ site.enforce_ssl }}";
+      if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+      </script>
+    {% endif %}
+
+  	<!--[if gte IE 9]>
+  	  <script src="//mdluo.b0.upaiyun.com/blog/js/html5shiv-printshiv.min.js"></script>
+  	<![endif]-->
+  	<!--[if lt IE 9]>
+    	<script src="//mdluo.b0.upaiyun.com/blog/js/IE9.js">IE7_PNG_SUFFIX=".png";</script>
+  	  <script src="//mdluo.b0.upaiyun.com/blog/js/ie7-recalc.js"</script>
+  	  <script src="//mdluo.b0.upaiyun.com/blog/js/ie7-squish.js</script>
+  	  <script src="//mdluo.b0.upaiyun.com/blog/js/html5shiv-printshiv.min.js"></script>
+  	<![endif]-->
+  	<!--[if gt IE 7]>
+  	  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  	  <meta http-equiv="X-XSS-Protection" content="1;mode=block">
+  	<![endif]-->
+  	<!--[if IE 6]>
+  	  <meta http-equiv="imagetoolbar" content="no">
+  	<![endif]-->
+  	<!--[if IE]>
+  	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<![endif]-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=7kkdNyg9Wg">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=7kkdNyg9Wg">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png?v=7kkdNyg9Wg">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png?v=7kkdNyg9Wg">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png?v=7kkdNyg9Wg">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png?v=7kkdNyg9Wg">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png?v=7kkdNyg9Wg">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png?v=7kkdNyg9Wg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png?v=7kkdNyg9Wg">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=7kkdNyg9Wg" sizes="32x32">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=7kkdNyg9Wg" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png?v=7kkdNyg9Wg" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=7kkdNyg9Wg" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=7kkdNyg9Wg">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=7kkdNyg9Wg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon.ico?v=7kkdNyg9Wg">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=7kkdNyg9Wg">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="//mdluo.b0.upaiyun.com/blog/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="//mdluo.b0.upaiyun.com/blog/css/share.min.css">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  </head>
