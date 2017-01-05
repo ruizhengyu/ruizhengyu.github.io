@@ -40,4 +40,3 @@ paginate_path:  /blog/page/:num/
 gems:     ["jekyll-paginate"]
 
 exclude:  ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
-pages:  ["archive.html", "messages.html", "tags.html", "categories.html", "about.html", "feed.xml"]
