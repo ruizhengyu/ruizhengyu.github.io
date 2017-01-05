@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="container">
-    <h1><a href="{{ "/" | prepend: site.baseurl }}"><span>{{site.title}}</span></a></h1>
+    <h1><a href="{{ '/' | prepend: site.baseurl }}"><span>{{site.title}}</span></a></h1>
 
     <button type="button" class="sliding-panel-button">
       <span></span>
@@ -10,11 +10,12 @@
 
     <nav class="navbar sliding-panel-content">
       <ul>
-            <li><a href="{{ '/' | prepend: site.baseurl }}archive.html" title="Archive">archive</a></li>
-            <li><a href="{{ '/' | prepend: site.baseurl }}messages.html" title="Message">Message</a></li>
-            <li><a href="{{ '/' | prepend: site.baseurl }}tags.html" title="Tags">Tags</a></li>
-            <li><a href="{{ '/' | prepend: site.baseurl }}categories.html" title="Categories">categories</a></li>
-            <li><a href="{{ '/' | prepend: site.baseurl }}about.html" title="About">About</a></li>
+            <li><a href="{{ site.BASE_PATH}}/{{ site.archive_path }}" title="Archive">Archive</a></li>
+            <li><a href="{{ site.BASE_PATH}}/{{ site.messages_path }}" title="Message">Message</a></li>
+            <li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}" title="Tags">Tags</a></li>
+            <li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}" title="Categories">Categories</a></li>
+            <li><a href="{{ site.BASE_PATH}}/{{ site.about_path }}" title="About">About</a></li>
+            <li><a href="{{ site.BASE_PATH}}/{{ site.rss_path }}" title="RSS">RSS</a></li>
       </ul>
     </nav>
   </div>
