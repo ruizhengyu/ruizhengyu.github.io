@@ -37,9 +37,8 @@ sass:
 paginate:       10
 paginate_path:  /blog/page/:num/
 
-gems:     ["jekyll-paginate"]
-
-exclude:  ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+gems:
+  - jekyll-seo-tag
 
 BASE_PATH:  https://ruizhengyu.github.io
 
