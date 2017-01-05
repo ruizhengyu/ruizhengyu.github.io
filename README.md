@@ -1,6 +1,6 @@
-mdluo.github.io
+ruizhengyu.github.io
 ===============
 
-Personal blog of Mingdong on Github Pages
+Personal blog of Ruizhengyu on Github Pages
 
-http://mdluo.github.io
+http://ruizhengyu.github.io

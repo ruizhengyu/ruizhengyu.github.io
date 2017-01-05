@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="container">
-    <h1><a href="{{ "/" | prepend: site.baseurl }}"><span>{{site.author.first_name}}</span>'s blog</a></h1>
+    <h1><a href="{{ "/" | prepend: site.baseurl }}"><span>{{site.title}}</span></a></h1>
 
     <button type="button" class="sliding-panel-button">
       <span></span>
@@ -10,11 +10,11 @@
 
     <nav class="navbar sliding-panel-content">
       <ul>
-        {% for page in site.pages %}
-          {% if page.title %}
-            <li><a href="{{ '/' | prepend: site.baseurl }}{{ page.permalink }}" title="{{ page.title }}">{{ page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+            <li><a href="/archive.html" title="Archive">archive</a></li>
+            <li><a href="/messages.html" title="Message">Message</a></li>
+            <li><a href="/tags.html" title="Tags">Tags</a></li>
+            <li><a href="/categories.html" title="Categories">categories</a></li>
+            <li><a href="/about.html" title="About">About</a></li>
       </ul>
     </nav>
   </div>
