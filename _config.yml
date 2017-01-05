@@ -29,7 +29,7 @@ author:
 # Build settings
 permalink:    /blog/:title/
 markdown:     kramdown
-rouge: highlighter
+highlighter:  pygments
 
 sass:
   style: compressed
