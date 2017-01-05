@@ -29,7 +29,7 @@ author:
 # Build settings
 permalink:    /blog/:title/
 markdown:     kramdown
-rouge: highlighter
+highlighter:  rouge
 
 sass:
   style: compressed
@@ -37,7 +37,14 @@ sass:
 paginate:       10
 paginate_path:  /blog/page/:num/
 
-gems:     ["jekyll-paginate"]
+gems:
+    - jekyll-github-metadata
+    - rouge
+#   - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
 
 exclude:  ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
 
