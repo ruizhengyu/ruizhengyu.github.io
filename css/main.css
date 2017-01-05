@@ -1,4 +1,4 @@
-﻿/* html {
+﻿html {
     box-sizing: border-box;
 }
 
@@ -1140,6 +1140,11 @@ pre {
 /* Literal.Number.Integer.Long */
 
 
+article a {
+    color: #268bd2;
+    text-decoration: none;
+}
+
 article h1, article h2, article h3, article h4, article h5, article h6 {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
@@ -1334,4 +1339,3 @@ article .example-code {
     .post-footer #disqus_thread {
         padding-top: 1rem;
     }
- */
