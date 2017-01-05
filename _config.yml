@@ -27,7 +27,7 @@ author:
   zhihu:      https://www.zhihu.com/people/ruizhengyu
 
 # Build settings
-permalink:    /blog/:title/
+permalink:    /:year/:month/:day/:title/
 markdown:     kramdown
 highlighter:  rouge
 
