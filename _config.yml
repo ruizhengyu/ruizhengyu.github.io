@@ -42,7 +42,7 @@ gems:     ["jekyll-paginate"]
 exclude:  ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
 
 
-BASE_PATH:
+BASE_PATH:  https://ruizhengyu.github.io
 
 rss_path: feed.xml
 categories_path: categories.html
