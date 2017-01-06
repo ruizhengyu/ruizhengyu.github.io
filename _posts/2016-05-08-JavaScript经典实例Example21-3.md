@@ -5,7 +5,7 @@ title: JavaScript经典实例 示例21-3
 categories: JavaScript经典实例
 tags:  JavaScript  JavaScript经典实例
 ---
-[示例21-1](http://lovechina.xyz/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample21-1/)中的ePub阅读器，使用一个Web Worker来反转内容
+[示例21-1](/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample21-1/)中的ePub阅读器，使用一个Web Worker来反转内容
 ----------------
 
 <html>

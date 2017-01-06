@@ -21,7 +21,7 @@ window.onload = function(){
     blk1.innerHTML = imgs.length;
     var p = document.createElement("p");
     var img = document.createElement("img");
-    img.src = "http://lovechina.xyz/assets/media/image/orchids4.preview.jpg";
+    img.src = "/assets/media/image/orchids4.preview.jpg";
     p.appendChild(img);
     
     var paras = document.getElementsByTagName('p');
@@ -36,9 +36,9 @@ window.onload = function(){
 </script>
 </head>
 <body>
-<p><img src="http://lovechina.xyz/assets/media/image/orchids12.preview.jpg" alt="Orchid from MBG 2009 orchid show" /></p>
-<p><img src="http://lovechina.xyz/assets/media/image/orchids6.preview.jpg" alt="Orchid from MBG 2009 orchid show" /></p>
-<p><img src="http://lovechina.xyz/assets/media/image/orchids9.preview.jpg" alt="Orchid from MBG 2009 orchid show" /></p>
+<p><img src="/assets/media/image/orchids12.preview.jpg" alt="Orchid from MBG 2009 orchid show" /></p>
+<p><img src="/assets/media/image/orchids6.preview.jpg" alt="Orchid from MBG 2009 orchid show" /></p>
+<p><img src="/assets/media/image/orchids9.preview.jpg" alt="Orchid from MBG 2009 orchid show" /></p>
 <div id="result1"></div>
 <div id="result2"></div>
 </body>

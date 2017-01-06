@@ -88,10 +88,10 @@ tags:  JavaScript  JavaScript经典实例
     <body>
         <div id="outer">
             <p>Mouse click on image to expand the photo. To close expanded photo, mouse click on image.</p>
-            <img src="http://lovechina.xyz/assets/media/image/dragonfly2.thumbnail.jpg" data-larger="http://lovechina.xyz/assets/media/image/dragonfly2.jpg" alt="image of common dragonfly on bright green and pink flowers"/>
-            <img src="http://lovechina.xyz/assets/media/image/dragonfly4.thumbnail.jpg" data-larger="http://lovechina.xyz/assets/media/image/dragonfly4.jpg" alt="Drak orange dragonfly on water lily"/>
-            <img src="http://lovechina.xyz/assets/media/image/dragonfly6.thumbnail.jpg" data-larger="http://lovechina.xyz/assets/media/image/dragonfly6.jpg" alt="Drak orange dragonfly on purple water lily"/>
-            <img src="http://lovechina.xyz/assets/media/image/dragonfly8.thumbnail.jpg" data-larger="http://lovechina.xyz/assets/media/image/dragonfly8.jpg" alt="Dragonfly on bright pink water lily"/>
+            <img src="/assets/media/image/dragonfly2.thumbnail.jpg" data-larger="/assets/media/image/dragonfly2.jpg" alt="image of common dragonfly on bright green and pink flowers"/>
+            <img src="/assets/media/image/dragonfly4.thumbnail.jpg" data-larger="/assets/media/image/dragonfly4.jpg" alt="Drak orange dragonfly on water lily"/>
+            <img src="/assets/media/image/dragonfly6.thumbnail.jpg" data-larger="/assets/media/image/dragonfly6.jpg" alt="Drak orange dragonfly on purple water lily"/>
+            <img src="/assets/media/image/dragonfly8.thumbnail.jpg" data-larger="/assets/media/image/dragonfly8.jpg" alt="Dragonfly on bright pink water lily"/>
         </div>
     </body>
 </html>

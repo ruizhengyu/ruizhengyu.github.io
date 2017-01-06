@@ -44,7 +44,7 @@ tags:  JavaScript  JavaScript经典实例
                     xmlhttp = new XMLHttpRequest();
                 }
                 
-                var url = 'http://lovechina.xyz/JavaScript经典实例Example18-1?nicething=' + value;
+                var url = '/JavaScript经典实例Example18-1?nicething=' + value;
                 
                 xmlhttp.open('GET', url, true);
                 xmlhttp.onreadystatechange = getThings;
@@ -135,7 +135,7 @@ tags:  JavaScript  JavaScript经典实例
                     xmlhttp = new XMLHttpRequest();
                 }
                 
-                var url = 'http://lovechina.xyz/JavaScript经典实例Example18-1.html?nicething=' + value;
+                var url = '/JavaScript经典实例Example18-1.html?nicething=' + value;
                 
                 xmlhttp.open('GET', url, true);
                 xmlhttp.onreadystatechange = getThings;

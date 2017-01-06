@@ -5,7 +5,7 @@ title: JavaScript经典实例 示例20-3
 categories: JavaScript经典实例
 tags:  JavaScript  JavaScript经典实例
 ---
-使用新的history.pushState和window.onpopstate事件处理程序，转换后的8.8节[示例8-2](http://lovechina.xyz/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample8-2/)
+使用新的history.pushState和window.onpopstate事件处理程序，转换后的8.8节[示例8-2](/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample8-2/)
 ----------------
 
 <html>

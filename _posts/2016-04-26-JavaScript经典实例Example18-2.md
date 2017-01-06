@@ -53,11 +53,11 @@ tags:  JavaScript  JavaScript经典实例
         <div>
             <button id="button1">Load the photo</button>
         </div>
-        <iframe src="http://lovechina.xyz/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample18-3/" id="widgetId"></iframe>
+        <iframe src="/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample18-3/" id="widgetId"></iframe>
     </body>
 </html>
 
-[点击查看监听器页面](http://lovechina.xyz/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample18-3/){:target="_blank"} 
+[点击查看监听器页面](/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample18-3/){:target="_blank"} 
 
 源码如下：
 
@@ -108,7 +108,7 @@ tags:  JavaScript  JavaScript经典实例
         <div>
             <button id="button1">Load the photo</button>
         </div>
-        <iframe src="http://lovechina.xyz/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample18-3/" id="widgetId"></iframe>
+        <iframe src="/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample18-3/" id="widgetId"></iframe>
     </body>
 </html>
 ``` 

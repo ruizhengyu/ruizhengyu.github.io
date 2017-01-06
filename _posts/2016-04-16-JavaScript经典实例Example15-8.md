@@ -87,8 +87,8 @@ tags:  JavaScript  JavaScript经典实例
         </script>
     </head>
     <body>
-        <video id="meadow" poster="http://lovechina.xyz/assets/media/image/purles.jpg" >
-            <source src="http://lovechina.xyz/assets/media/image/meadow.MP4" type="video/MP4" />               
+        <video id="meadow" poster="/assets/media/image/purles.jpg" >
+            <source src="/assets/media/image/meadow.MP4" type="video/MP4" />               
         </video>
         <div id="feedback"></div>
         <div id="controls">
@@ -181,8 +181,8 @@ tags:  JavaScript  JavaScript经典实例
         </script>
     </head>
     <body>
-        <video id="meadow" poster="http://lovechina.xyz/assets/media/image/purles.jpg" >
-            <source src="http://lovechina.xyz/assets/media/image/meadow.MP4" type="video/MP4" />             
+        <video id="meadow" poster="/assets/media/image/purles.jpg" >
+            <source src="/assets/media/image/meadow.MP4" type="video/MP4" />             
         </video>
         <div id="feedback"></div>
         <div id="controls">
