@@ -3,15 +3,15 @@
     {% include social.html %}
     <p class="txt-medium-gray">
       <small>
-        &copy; 2015-{{ site.time | date: '%Y' }} <a href="{{ site.author.github }}" target="_blank">{{ site.author.name }}</a>.
-        Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.
+        &copy; 2015-{{ site.time | date: '%Y' }} <a href="{{ site.author.github }}" target="_blank">{{ site.author.name }}</a>|
+        Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>|
         Theme by
           <a href="https://github.com/nandomoreirame/end2end" target="_blank">end2end</a>,
           <a href="https://github.com/gfjaru/Kiko" target="_blank">Kiko</a> and
-          <a href="https://mdluo.github.io/" target="_blank">More</a>.
-          {% if site.author.cnzz %}
-            <script src="http://s85.cnzz.com/stat.php?id={{ site.author.cnzz }}"></script>
-          {% endif %}.
+          <a href="https://mdluo.github.io/" target="_blank">More</a>|
+          {% if site.cnzz %}
+            <script src="http://s85.cnzz.com/stat.php?id={{ site.cnzz }}"></script>
+          {% endif %}
       </small>
     </p>
   </div>

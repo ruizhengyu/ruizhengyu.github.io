@@ -14,11 +14,11 @@ enforce_ssl:      ruizhengyu.github.io
 repo:             https://github.com/ruizhengyu/ruizhengyu.github.io
 disqus_name:      "ruizhengyu"
 disqus_site_name: "Ruizhengyu's Blog"
-cnd:              
+cnzz: 1257366192             
 
 # Author settings
 author:
-  cnzz: 1257366192
+ 
   name:       "Ruizhengyu"
   first_name: "Rui"
   email:      ruizhengyu@gmail.com
