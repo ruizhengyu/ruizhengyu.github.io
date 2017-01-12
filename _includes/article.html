@@ -11,5 +11,5 @@
     </div>
   </header>
 
-  <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.content | strip_html | truncatewords: 30 }}</a>
 </article>
