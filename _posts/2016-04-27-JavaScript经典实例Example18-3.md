@@ -32,7 +32,7 @@ tags:  JavaScript  JavaScript经典实例
                 
                 img.src = e.data.split(',')[0];
                 img.alt = e.data.split(',')[1];
-                e.source.postMessage('Received ' + e.data, '/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample18-2/');                
+                e.source.postMessage('Received ' + e.data, '/2016/04/26/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample18-2/');                
             }
             
         </script>
@@ -72,7 +72,7 @@ tags:  JavaScript  JavaScript经典实例
                 
                 img.src = e.data.split(',')[0];
                 img.alt = e.data.split(',')[1];
-                e.source.postMessage('Received ' + e.data, '/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample18-2/');                
+                e.source.postMessage('Received ' + e.data, '/2016/04/26/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample18-2/');                
             }
             
         </script>
