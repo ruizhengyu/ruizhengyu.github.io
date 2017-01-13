@@ -42,7 +42,7 @@ tags:  JavaScript  JavaScript经典实例
     </body>
 </html>
 
-[点击查看发送器页面](/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample18-2/){:target="_blank"} 
+[点击查看发送器页面](/2016/04/27/JavaScript%E7%BB%8F%E5%85%B8%E5%AE%9E%E4%BE%8BExample18-2/){:target="_blank"} 
 
 源码如下：
 
