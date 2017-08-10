@@ -1,11 +1,4 @@
 <footer class="site-footer">
-  {% if page.previous %} 
-  <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">   
-    <div class="prev">
-      <i class="fa fa-angle-left">上一篇</i>
-    </div> 
-  </a> 
-  {% endif %} 
   <div class="container">
     {% include social.html %}
     <p class="txt-medium-gray">
@@ -22,11 +15,4 @@
       </small>
     </p>
   </div>
-  {% if page.next %} 
-  <a href="{{ page.next.url }}" title="{{ page.next.title }}">   
-    <div class="next">
-      <i class="fa fa-angle-right">下一篇</i>
-    </div>
-  </a> 
-  {% endif %} 
 </footer>
