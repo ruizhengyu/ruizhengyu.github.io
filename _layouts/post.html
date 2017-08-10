@@ -17,9 +17,7 @@ layout: default
     <hr>
 
     <footer class="post-footer">
-      {% if page.previous %}<a href="{{ page.previous.url }}" title="{{ page.previous.title }}"><div class="prev"><i class="fa fa-angle-left">上一篇</i></div></a>{% endif %}
       {% include share.html %}
-       {% if page.next %}<a href="{{ page.next.url }}" title="{{ page.next.title }}"><div class="next"><i class="fa fa-angle-right">下一篇</i></div></a>{% endif %} 
       {% include comments-duoshuo.html %}
     </footer>
   </div>
