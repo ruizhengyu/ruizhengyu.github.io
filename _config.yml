@@ -9,7 +9,7 @@
 title:            "数域K上N维线性空间"
 description:      "This is a personal blog of Ruizhengyu on Github Pages."
 url:              https://ruizhengyu.github.io
-enforce_ssl:      https://ruizhengyu.github.io
+enforce_ssl:      ruizhengyu.github.io
 
 repo:             https://github.com/ruizhengyu/ruizhengyu.github.io
 disqus_name:      "ruizhengyu"
