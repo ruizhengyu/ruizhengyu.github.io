@@ -2,7 +2,7 @@
     {% if site.enforce_ssl %}
       <script>
       var host = "{{ site.enforce_ssl }}";
-      if ((host == window.location.host))
+      if ((host == window.location.host) && (window.location.protocol != "https:"))
         window.location.protocol = "https";
       </script>
     {% endif %}
