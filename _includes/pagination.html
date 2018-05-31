@@ -5,7 +5,7 @@
     {% if paginator.previous_page %}
       {% if paginator.previous_page > 1 %}
         {% assign prev = 'page/' | append: paginator.previous_page %}
-        <li><a class="prev btn btn-ghost" href="{{ url | append: prev }}" title="Articles new">&laquo; Prev</a></li>
+        <li><a class="prev btn btn-ghost" href="{{ url | append: prev }}"+"/" title="Articles new">&laquo; Prev</a></li>
       {% else %}
         <li><a class="prev btn btn-ghost" href="{{ '/' | prepend: site.baseurl }}" title="Articles new">&laquo; Prev</a></li>
       {% endif %}
@@ -14,7 +14,7 @@
     {% endif %}
     <li><span class="page-number">Page {{paginator.page}} of {{paginator.total_pages}}</span></li>
     {% if paginator.next_page %}
-      <li><a class="next btn btn-ghost" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="Articles old">Next &raquo;</a></li>
+      <li><a class="next btn btn-ghost" href="{{ url | append: 'page/' | append: paginator.next_page }}"+"/" title="Articles old">Next &raquo;</a></li>
     {% else %}
       <li><span class="next btn btn-ghost disabled">Next &raquo;</span></li>
     {% endif %}
